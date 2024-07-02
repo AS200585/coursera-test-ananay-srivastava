@@ -21,6 +21,7 @@ html, body, .row, .title{
 }
 
 li{
+    box-align: center;
 	box-sizing: border-box;
 	width: 100%;
 }
@@ -76,6 +77,10 @@ li{
 
 .content-box{
     text-align: center;
+    box-align: center;
+    box-sizing: border-box;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 @media (min-width: 992px) and (max-width: 1200px){
@@ -92,6 +97,6 @@ li{
 
 @media (min-width: 0px) and (max-width: 767px){
     .col-sm-12{
-        width: 50%;
+        width: 90%;
     }
 }
